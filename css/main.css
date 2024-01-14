@@ -1,0 +1,284 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden {
+    display: none;
+}
+
+
+#container1 {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px #333;
+    background: #efefef;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 10px #aaa;
+}
+
+#article1 {
+    grid-column: 1/-1;
+    font-family: 'Pirata One';
+}
+
+.new-image {
+    width: 430px;
+    height: 310px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.line-separator {
+    border-bottom: solid 3px black;
+}
+
+.bigletter {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+.bigletter::first-letter {
+	color: rgb(0, 0, 0);
+	font-size: 50px;
+	padding: 10px 3px;
+	float: left;
+}
+
+
+
+#container2 {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px #000000;
+    background: #ECC8B5;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#article2 {
+    grid-column: 1/-1;
+    font-family: 'Rancho';
+    font-size: 20px;
+}
+
+.milk {
+    color: #764e39;
+}
+
+.image-border {
+    border: solid 7px #764e39 ;
+    border-radius: 1000px;
+    width: 420px;
+    height: 550px;
+}
+
+#container3 {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px #333;
+    background: #000000;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 10px #aaa;
+}
+
+#article3 {
+    grid-column: 1/-1;
+    font-family: 'Tangerine';
+    color: white;
+    font-size: 26px;
+}
+
+.text-shadow {
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.wine-border {
+    border: solid 1px white;
+    width: 430px;
+    height: 550px;
+}
+
+#container4 {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px rgb(255, 85, 0);
+    background: #ff0000;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+#article4 {
+    grid-column: 1/-1;
+    font-family: 'Glegoo';
+    text-shadow: 100px 100px 100px rgb(255, 230, 0);
+    color: rgb(255, 199, 44);
+}
+
+.energy-image {
+    border: solid 5px rgb(255, 85, 0);
+    box-shadow: 0 0 30px yellow;
+    border-radius: 30px;
+    width: 417px;
+    height: 310px;
+}
+
+#container5 {
+    margin: 20px auto;
+    width: 428px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+#article5 {
+    grid-column: 1/-1;
+    z-index: 1;
+}
+
+.split-background {
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.split-background:before,
+.split-background:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: #ff9b28;
+}
+
+.split-background:after {
+    left: 50%;
+    background-color: #ffe600; 
+}
+
+.juice-image {
+    border: solid 5px white;
+    border-radius: 50%;
+    width: 420px;
+    height: 700px;
+}
+
+.text-juice {
+    font-size: 70px;
+    font-family: 'Bungee Spice';
+    text-shadow: 5px 5px 70px white;
+}
+
+.juice-text-main {
+    font-family: 'Catamaran';
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#container6 {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 4px #000000;
+    background: #6b49e8;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#article6 {
+    grid-column: 1/-1;
+    font-family: 'Black Ops One';
+}
+
+.sport-image {
+    border: solid 5px rgb(0, 0, 0);
+    width: 418px;
+    height: 600px;
+}
+
+#container7 {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px #003403;
+    background: #02641c;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#article7 {
+    grid-column: 1/-1;
+    font-family: 'Fredericka the Great';
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.letters-image {
+    width: 420px;
+    height: 310px;
+    border: solid 5px white;
+    border-radius: 50px;
+}
+
+#container8 {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px #000000;
+    background: #004390;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#article8 {
+    grid-column: 1/-1;
+    font-family: 'Vollkorn';
+    font-size: 50px;
+}
+
+.football-image {
+    width: 420px;
+    height: 310px;
+    margin: 0;
+}
+
+.football-text {
+    font-family: 'Vollkorn';
+    text-align: center;
+    margin: 0;
+}
